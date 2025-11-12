@@ -1,0 +1,35 @@
+# -----------------------------
+# Core Language & Environment
+# -----------------------------
+python-dotenv==1.0.1          # for loading .env with API keys
+openai==1.40.0                # OpenAI API SDK
+# tiktoken==0.7.0               # token counting utils for OpenAI models
+
+# -----------------------------
+# Embeddings & RAG
+# -----------------------------
+sentence-transformers==3.1.0  # HuggingFace transformer embeddings
+transformers==4.44.0          # base transformer library
+faiss-cpu==1.12.0              # vector similarity search engine
+numpy==1.26.4
+pandas==2.2.2
+
+# -----------------------------
+# Web / API Layer (optional)
+# -----------------------------
+fastapi==0.111.0
+uvicorn==0.30.0
+
+# -----------------------------
+# Logging, Utilities, and Monitoring
+# -----------------------------
+mlflow==2.15.0                # optional experiment & performance tracking
+boto3==1.34.0                 # AWS integration if you later add CloudWatch
+requests==2.32.3
+
+# -----------------------------
+# Dev / Testing / Formatting
+# -----------------------------
+pytest==8.2.0                 # for unit tests
+black==24.4.2                 # auto code formatter
+ruff==0.5.0                   # linter

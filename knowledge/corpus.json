@@ -1,0 +1,26 @@
+[
+  {
+    "name": "VTI",
+    "type": "ETF",
+    "risk_level": "moderate",
+    "description": "Total US stock market ETF suitable for long-term investors."
+  },
+  {
+    "name": "AGG",
+    "type": "Bond",
+    "risk_level": "low",
+    "description": "US aggregate bond ETF suitable for conservative investors."
+  },
+  {
+    "name": "QQQ",
+    "type": "ETF",
+    "risk_level": "high",
+    "description": "Nasdaq 100 ETF with higher volatility and growth potential."
+  },
+  {
+    "name": "ESGU",
+    "type": "ETF",
+    "risk_level": "moderate",
+    "description": "ESG-screened S&P 500 ETF for socially conscious investors."
+  }
+]
