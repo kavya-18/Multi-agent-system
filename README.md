@@ -60,30 +60,57 @@ streamlit run ui/app.py    # (or whichever file under `ui/`)
 
 ### **Directory Structure**
 Multi-agent-system/
+
 ├── agents/
+
 │   ├── client_agent.py
+
 │   ├── advisor_agent.py
+
 │   └── analyst_agent.py
+
 ├── services/
+
 │   ├── vector_service.py
+
 │   ├── llm_service.py
+
 │   ├── prompt_utils.py
+
 │   └── ...
+
 ├── models/
+
 │   ├── client_profile.py
+
 │   ├── message.py
+
 │   └── recommendation.py
+
 ├── knowledge/
+
 │   └── private_bank_corpus/
+
 │       ├── doc1.txt
+
 │       └── doc2.txt
+
 ├── api/
+
 │   ├── main.py
+
 │   ├── routes.py
+
 │   └── schemas.py
+
 ├── ui/
+
 │   └── app.py
+
 ├── main.py
+
 ├── requirements.txt
+
 ├── README.md   ← (this file)
+
 └── .gitignore
