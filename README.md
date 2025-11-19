@@ -45,7 +45,7 @@ uvicorn api.main:app --reload
  ```
 5. Launch the UI:
  ```
-streamlit run ui/app.py    # (or whichever file under `ui/`)
+streamlit run ui/app.py   
  ```
 
 ### **Usage / Example Flow** 
