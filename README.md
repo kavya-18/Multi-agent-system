@@ -59,7 +59,6 @@ streamlit run ui/app.py    # (or whichever file under `ui/`)
 
 
 ### **Directory Structure**
-
 Multi-agent-system/
 ├── agents/
 │   ├── client_agent.py
