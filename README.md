@@ -25,7 +25,7 @@ Built with **FastAPI**, **Streamlit**, **FAISS**, and **LLMs (OpenAI/HuggingFace
 1. Create virtual environment
 ```bash
    python -m venv .venv
-   source .venv/bin/activate    # (or `.venv\Scripts\activate` on Windows)
+   source .venv/bin/activate   
  ```
 2. Install dependencies:
  
