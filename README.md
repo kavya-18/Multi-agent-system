@@ -34,6 +34,7 @@ pip install -r requirements.txt
 ```
 
 3. Set required environment variables (OPENAI_API_KEY).
+
 Create a .env file
  ```
 OPENAI_API_KEY=your-api-key-here
