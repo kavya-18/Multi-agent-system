@@ -23,14 +23,16 @@ Built with **FastAPI**, **Streamlit**, **FAISS**, and **LLMs (OpenAI/HuggingFace
 
 ## How to Run
 1. Create virtual environment
-   ```bash
+```bash
    python -m venv .venv
    source .venv/bin/activate    # (or `.venv\Scripts\activate` on Windows)
  ```
 2. Install dependencies:
- ```
+ 
+```bash
 pip install -r requirements.txt
- ```
+```
+
 3. Set required environment variables (OPENAI_API_KEY).
 Create a .env file
  ```
@@ -55,7 +57,9 @@ streamlit run ui/app.py    # (or whichever file under `ui/`)
 
 4. The system returns a structured recommendation that the Client can review, ask follow-up questions, get refinements.
 
+
 ### **Directory Structure**
+
 Multi-agent-system/
 ├── agents/
 │   ├── client_agent.py
